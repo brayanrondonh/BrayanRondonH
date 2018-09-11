@@ -29,7 +29,22 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-hexagon:before { content: "\f100"; }
-.flaticon-hexagon-1:before { content: "\f101"; }
-.flaticon-rhombus:before { content: "\f102"; }
-.flaticon-blank-cube:before { content: "\f103"; }
+.flaticon-hexagon:before
+{
+  content: "\f100";
+}
+
+.flaticon-hexagon-1:before
+{
+  content: "\f101";
+}
+
+.flaticon-rhombus:before
+{
+  content: "\f102";
+}
+
+.flaticon-blank-cube:before
+{
+  content: "\f103";
+}
