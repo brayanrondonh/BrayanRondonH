@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Brayan Rondón H.</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="CSS/geofonts/flaticon.css">
 	<link rel="stylesheet" type="text/css" href="CSS/icomoon.css">
@@ -10,6 +11,49 @@
 	<script src="JS/modernizr-custom.js"></script>
 </head>
 <body>
-	
+	<header id="header">
+		<div id="menu">
+			<div id="logo">
+				<a href="#">
+					<figure>
+						<img src="IMAGE/Logo.jpg">
+					</figure>
+				</a>
+				<a href="#" class="ioMenuMovil" id="showMenu" onclick="displayMenu()"></a>
+				<a href="#" class="ioMenuMovil" id="hideMenu" onclick="displayMenu()"></a>
+			</div>
+
+			<div id="card_menu">
+				<div id="enlaces">
+					<a href="#">Acerca de mi</a>
+					<a href="#">Experiencia Laboral y Académica</a>
+					<a href="#">Proyectos</a>
+					<a href="#">Habilidades y Competencias</a>
+					<a href="#">Blog</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<script>
+		function displayMenu()
+		{
+			var display;
+			var card_menu = document.getElementById("card_menu");
+			display = card_menu.style.display;
+
+			if (display == "none" || display == "")
+			{
+				card_menu.style.display = "block";
+			}
+			else
+			{
+				card_menu.style.display = "none";
+			}			
+		}
+	</script>
 </body>
 </html>
