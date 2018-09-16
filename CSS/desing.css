@@ -292,8 +292,54 @@ main #proyectos #proyectosContainer .itemsProyectos h4
 	color: black;
 }
 
+main #habilidadesCompetencias
+{
+	background: #FFFACD;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
+main #habilidadesCompetencias #habilidades
+{
+	background: #663399;
+}
 
+main #habilidadesCompetencias #habilidades h3#hab
+{
+	font-family: 'EB Garamond';
+	font-size: 2em;
+	display: inline;
+	background: rgb(21,54,65);
+	color: white;
+}
+
+main #habilidadesCompetencias #habilidades #container
+{
+	padding-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main #habilidadesCompetencias #habilidades #container h3
+{
+	font-family: 'EB Garamond';
+	font-size: 1.5em;
+	display: inline;
+	color: black;
+	padding-bottom: 25px;
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1
+{
+	border: 3px solid black;
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 h4
+{
+	padding-top: 25px;
+}
 
 
 
