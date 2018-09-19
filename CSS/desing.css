@@ -303,6 +303,7 @@ main #habilidadesCompetencias
 main #habilidadesCompetencias #habilidades
 {
 	background: #663399;
+	padding-bottom: 55px;
 }
 
 main #habilidadesCompetencias #habilidades h3#hab
@@ -316,7 +317,6 @@ main #habilidadesCompetencias #habilidades h3#hab
 
 main #habilidadesCompetencias #habilidades #container
 {
-	padding-top: 35px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -328,18 +328,389 @@ main #habilidadesCompetencias #habilidades #container h3
 	font-size: 1.5em;
 	display: inline;
 	color: black;
-	padding-bottom: 25px;
+	padding-top: 45px;
+	padding-bottom: 15px;
 }
 
 main #habilidadesCompetencias #habilidades #container #itemsHabilidades1
 {
 	border: 3px solid black;
+	padding-bottom: 30px;
+	position: relative;
+	background: white;
 }
 
 main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 h4
 {
-	padding-top: 25px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	margin-left: 10%;
 }
+
+.skills
+{
+	width: 80%;
+	padding: 1px;
+	margin: 0 auto;
+	border: 3px solid rgb(34,85,110);
+	border-radius: 25px;
+	background: white;
+}
+
+.skills_level
+{
+	background: rgb(71,153,183);
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+}
+
+.barra1
+{
+	width: 75%;
+	position: relative;
+}
+
+.barra1::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 185px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(1)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 230px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra2
+{
+	width: 70%;
+	position: relative;
+}
+
+.barra2::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 170px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(2)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 215px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra3
+{
+	width: 70%;
+	position: relative;
+}
+
+.barra3::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 170px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(3)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 215px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra4
+{
+	width: 30%;
+	position: relative;
+}
+
+.barra4::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 59px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(4)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 104px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra5
+{
+	width: 40%;
+	position: relative;
+}
+
+.barra5::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 85px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(5)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 130px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra6
+{
+	width: 40%;
+	position: relative;
+}
+
+.barra6::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 85px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(6)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 130px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra7
+{
+	width: 55%;
+	position: relative;
+}
+
+.barra7::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 130px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades1 p:nth-of-type(7)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 175px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2
+{
+	border: 3px solid black;
+	padding-bottom: 30px;
+	position: relative;
+	background: white;
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2 h4
+{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	margin-left: 10%;
+}
+
+.barra8
+{
+	width: 75%;
+	position: relative;
+}
+
+.barra8::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 185px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2 p:nth-of-type(1)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 230px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra9
+{
+	width: 45%;
+	position: relative;
+}
+
+.barra9::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 100px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2 p:nth-of-type(2)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 145px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+
+.barra10
+{
+	width: 60%;
+	position: relative;
+}
+
+.barra10::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 145px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2 p:nth-of-type(3)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 190px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+.barra11
+{
+	width: 60%;
+	position: relative;
+}
+
+.barra11::before
+{
+	font-family: 'Flaticon';
+	content: "\f100";
+	font-size: 3em;
+	position: absolute;
+	top: -22px;
+	left: 145px;
+	font-weight: bold;
+	color: rgb(109,179,191);
+}
+
+main #habilidadesCompetencias #habilidades #container #itemsHabilidades2 p:nth-of-type(4)
+{
+	display: inline;
+	padding: 1px 3px 1px 3px;
+	background: white;
+	position: absolute;
+	left: 190px;
+	z-index: 999;
+	font-size: 14.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
