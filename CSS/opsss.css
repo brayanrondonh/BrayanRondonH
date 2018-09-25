@@ -1,0 +1,28 @@
+	div#error
+	{
+	    background-image: url(../IMAGE/opsss.jpg);
+	    height: 100vh;
+	    background-position: top center;
+	    background-size: cover;
+	}
+
+	#error p
+	{
+		color: rgba(255,255,255,.7);
+		font-family: 'Rammetto One', cursive;
+		display: block;
+		text-align: center;
+		font-size: 2em;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#error p:first-child
+	{
+		top: 60vh;
+	}
+
+	#error p:last-child
+	{
+		top: 75vh;
+	}
